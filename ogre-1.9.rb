@@ -56,7 +56,7 @@ class Ogre19 < Formula
     cmake_args = [
       "-DCMAKE_OSX_ARCHITECTURES='x86_64'",
       "-DOGRE_BUILD_LIBS_AS_FRAMEWORKS=OFF",
-      "-DOIS_INCLUDE_DIR=''",
+      "-DOIS_INCLUDE_DIR=/usr/local/lib",
       "-DOGRE_FULL_RPATH:BOOL=FALSE",
       "-DOGRE_BUILD_DOCS:BOOL=FALSE",
       "-DOGRE_INSTALL_DOCS:BOOL=FALSE",
